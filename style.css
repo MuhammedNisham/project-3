@@ -1,8 +1,24 @@
+/* '*' symbol is asterisk. it is also called as
+wildcard in many languages */
+*{
+    box-sizing: border-box;
+    
+    /* for avoiding defualt browser padding
+    or resetting the padding and margin */
+    padding: 0;
+    margin: 0; 
+}
 .container{
     border: 1px solid green;
     .content{
         border: 1px solid red;
-        height: 50px;
-        width: 50px;
+        border-radius: 10px;
+        background-color: black;
+        /* color means text color in html */
+        color: aliceblue;
+        height: 100px;
+        width: 100px;
+        padding: 10px;
+        margin: 10px;
     }
 }
