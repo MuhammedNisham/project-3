@@ -13,12 +13,16 @@ wildcard in many languages */
     .content{
         border: 1px solid red;
         border-radius: 10px;
-        background-color: black;
+        background-color: rgb(18, 2, 49);
         /* color means text color in html */
-        color: aliceblue;
+        color: rgb(226, 232, 238);
         height: 100px;
         width: 100px;
-        padding: 10px;
+        padding: 43px;
         margin: 10px;
+
+        .inner-content{
+            background-color: aliceblue;
+        }
     }
 }
