@@ -1,5 +1,6 @@
 /* '*' symbol is asterisk. it is also called as
-wildcard in many languages */
+wildcard in many languages . In css it is universal
+selector*/
 *{
     box-sizing: border-box;
     
@@ -13,16 +14,62 @@ wildcard in many languages */
     .content{
         border: 1px solid red;
         border-radius: 10px;
-        background-color: rgb(18, 2, 49);
+        background-color: rgb(64, 60, 73);
         /* color means text color in html */
         color: rgb(226, 232, 238);
         height: 100px;
         width: 100px;
         padding: 43px;
         margin: 10px;
+        img{
+            border-radius: 10px;
+            height: 100px;
+            aspect-ratio: 1/1;
+            /* padding: 43px; */
+            margin: 10px;
+        }
 
         .inner-content{
             background-color: aliceblue;
         }
     }
 }
+.square{
+    border: 12px solid;
+    border-color: brown;
+    /* height: auto; */
+    height: 200px;
+    aspect-ratio: 1/1;
+    padding: 10px;
+    .circle{
+        border: 5px solid green;
+        height: 100%;
+        aspect-ratio: 1/1;
+        border-radius: 50%;
+        
+    }
+}
+.rec-cir{
+   
+    border: 4px solid;
+    width: 200px;
+    aspect-ratio: 1/2;
+    img{
+        border-radius: 50%;
+        width: 200px;
+        aspect-ratio: 1/1;
+    }
+        
+    
+    .cir1{
+        border: 1px solid;
+        border-radius: 50%;
+        height: 200px;
+        aspect-ratio: 1/1;
+        
+        
+       
+    }
+}
+
+    
